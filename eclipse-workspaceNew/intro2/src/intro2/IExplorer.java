@@ -7,7 +7,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class IExplorer {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.ie.driver", "c:\\users\\lgutr\\downloads\\MicrosoftWebDriver.exe");
 		WebDriver driver=new InternetExplorerDriver();
