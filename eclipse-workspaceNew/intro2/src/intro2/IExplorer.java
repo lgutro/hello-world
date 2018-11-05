@@ -11,14 +11,12 @@ public class IExplorer {
 		System.setProperty("webdriver.ie.driver", "c:\\users\\lgutr\\downloads\\MicrosoftWebDriver.exe");
 		WebDriver driver=new InternetExplorerDriver();
 		
-
-
 		
 		driver.get("http://www.profilemotel.com");
 		System.out.println(driver.getTitle()); 	
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getPageSource()); 
-		driver.quit();
+		// driver.quit();
 		
 		
 	}
