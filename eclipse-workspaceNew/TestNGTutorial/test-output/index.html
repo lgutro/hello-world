@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Loan_Department_Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,7 +107,32 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Department_Suite" title="test.day3" hash-for-method="LoginAPICarLoan">LoginAPICarLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Department_Suite" title="test.day4" hash-for-method="LoginAPIhomeLoan">LoginAPIhomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Department_Suite" title="test.day4" hash-for-method="MobileLoginhomeLoan">MobileLoginhomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Loan_Department_Suite" title="test.day1" hash-for-method="SecondTest">SecondTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Department_Suite" title="test.day3" hash-for-method="WebLoginCarLoan">WebLoginCarLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Department_Suite" title="test.day4" hash-for-method="WebLoginhomeLoan">WebLoginhomeLoan</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -130,6 +155,28 @@
           <div class="suite-Loan_Department_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">test.day3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginAPICarLoan">
+                  </a> <!-- LoginAPICarLoan -->
+                  <span class="method-name">LoginAPICarLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WebLoginCarLoan">
+                  </a> <!-- WebLoginCarLoan -->
+                  <span class="method-name">WebLoginCarLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Department_Suite-class-passed -->
+          <div class="suite-Loan_Department_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">test.day1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -145,6 +192,35 @@
                   <a name="SecondTest">
                   </a> <!-- SecondTest -->
                   <span class="method-name">SecondTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Department_Suite-class-passed -->
+          <div class="suite-Loan_Department_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.day4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginAPIhomeLoan">
+                  </a> <!-- LoginAPIhomeLoan -->
+                  <span class="method-name">LoginAPIhomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MobileLoginhomeLoan">
+                  </a> <!-- MobileLoginhomeLoan -->
+                  <span class="method-name">MobileLoginhomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WebLoginhomeLoan">
+                  </a> <!-- WebLoginhomeLoan -->
+                  <span class="method-name">WebLoginhomeLoan</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -178,8 +254,18 @@
     &lt;classes&gt;
       &lt;class name=&quot;test.day1&quot;/&gt;
       &lt;class name=&quot;test.day2&quot;/&gt;
+      &lt;class name=&quot;test.day4&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Personal Loan Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Car Loan Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.day3&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;MobileLoginCarLoan&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.day3 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Car Loan Test --&gt;
 &lt;/suite&gt; &lt;!-- Loan Department Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,7 +277,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Personal Loan Test (2 classes)</span>
+                <span class="test-name">Personal Loan Test (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Car Loan Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -217,24 +306,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Demo')
 data.setCell(0, 2, 'test.day1')
-data.setCell(0, 3, 24);
+data.setCell(0, 3, 19);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SecondTest')
-data.setCell(1, 2, 'test.day1')
-data.setCell(1, 3, 4);
+data.setCell(1, 1, 'ploan')
+data.setCell(1, 2, 'test.day2')
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ploan')
-data.setCell(2, 2, 'test.day2')
-data.setCell(2, 3, 4);
+data.setCell(2, 1, 'WebLoginhomeLoan')
+data.setCell(2, 2, 'test.day4')
+data.setCell(2, 3, 6);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SecondTest')
+data.setCell(3, 2, 'test.day1')
+data.setCell(3, 3, 6);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'WebLoginCarLoan')
+data.setCell(4, 2, 'test.day3')
+data.setCell(4, 3, 5);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginAPICarLoan')
+data.setCell(5, 2, 'test.day3')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'MobileLoginhomeLoan')
+data.setCell(6, 2, 'test.day4')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginAPIhomeLoan')
+data.setCell(7, 2, 'test.day4')
+data.setCell(7, 3, 2);
 window.suiteTableData['Loan_Department_Suite']= { tableData: data, tableDiv: 'times-div-Loan_Department_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 56 ms</span>
               <div id="times-div-Loan_Department_Suite">
               </div> <!-- times-div-Loan_Department_Suite -->
             </div> <!-- times-div -->
@@ -249,9 +358,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Loan_Department_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.day3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">MobileLoginCarLoan</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Loan_Department_Suite" class="panel">
@@ -267,14 +383,40 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SecondTest</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">36 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.day2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ploan</span>
-                <span class="method-start">42 ms</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.day4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginAPIhomeLoan</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MobileLoginhomeLoan</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WebLoginhomeLoan</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.day3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginAPICarLoan</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WebLoginCarLoan</span>
+                <span class="method-start">191 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
